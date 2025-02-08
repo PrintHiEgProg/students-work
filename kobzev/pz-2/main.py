@@ -23,7 +23,8 @@ def get_digits():
             # Вывод результата
             print(f"Последняя цифра (единицы): {last_digit}")
             print(f"Средняя цифра (десятки): {middle_digit}")
-        
+
+            break
         except ValueError as e:
             # Обработка ошибок ввода
             print(f"Ошибка: {e}")
